@@ -6,7 +6,7 @@
   Version: 2.06
   Requires at least: 4.0
   Requires PHP: 5.2
-  Tested up to: 6.8
+  Tested up to: 6.9
   License: GPLv2 or later
   Author: WebFactory Ltd
   Author URI: https://www.webfactoryltd.com/
@@ -2312,8 +2312,7 @@ class WP_Reset
         $out .= '</tr>';
 
         $out .= '<tr>';
-        $out .= '<td><a class="button button-buy" data-href-org="https://wpreset.com/buy2/?product=personal-free&ref=pricing-table" href="https://wpreset.com/buy2/?product=personal-free&ref=pricing-table" target="_blank">Lifetime License<br>$59 -&gt; BUY NOW</a>
-    <br>or <a class="button-buy" data-href-org="https://wpreset.com/buy2/?product=personal-monthly&ref=pricing-table" href="https://wpreset.com/buy2/?product=personal-monthly&ref=pricing-table" target="_blank">only $6.99 <small>/month</small></a></td>';
+        $out .= '<td><a class="button button-buy" data-href-org="https://wpreset.com/buy2/?product=personal-free&ref=pricing-table" href="https://wpreset.com/buy2/?product=personal-free&ref=pricing-table" target="_blank">Lifetime License<br>$59 -&gt; BUY NOW</a></td>';
         $out .= '<td><a class="button button-buy" data-href-org="https://wpreset.com/buy2/?product=team-free&ref=pricing-table" href="https://wpreset.com/buy2/?product=team-free&ref=pricing-table" target="_blank">Lifetime License<br>$69 -&gt; BUY NOW</a></td>';
         $out .= '<td><a class="button button-buy" data-href-org="https://wpreset.com/buy2/?product=agency-free&ref=pricing-table" href="https://wpreset.com/buy2/?product=agency-free&ref=pricing-table" target="_blank">Lifetime License<br>$149 -&gt; BUY NOW</a></td>';
         $out .= '</tr>';
